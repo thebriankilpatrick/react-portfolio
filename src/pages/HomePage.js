@@ -1,9 +1,11 @@
 import React from "react";
 import "./HomePage.css";
+import BodyClassName from 'react-body-classname';
 
 function HomePage() {
     return (
         <div>
+            <BodyClassName className="homeBody"></BodyClassName>
             <div className="container center-align">
                 <div className="homePageTxt">
                     <h1>Hi, I'm Brian Kilpatrick</h1>
