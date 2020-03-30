@@ -4,11 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(26, 25, 25);
+    background-color: rgb(19, 18, 18);
 }
 
 .homePageTxt {
     color: white;
+    margin-top: 150px;
 }
 
 .fas:hover {
