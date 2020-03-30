@@ -5,12 +5,12 @@ function Header() {
     return (
         <nav className="transparent">
             <div className="nav-wrapper">
-            <Link to="/" className="brand-logo hide-on-med-and-down">Brian Kilpatrick</Link>
-            <ul id="nav-mobile" class="right">
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/resume">Resume</Link></li>
-            </ul>
+                <Link to="/" className="brand-logo hide-on-med-and-down">Brian Kilpatrick</Link>
+                <ul id="nav-mobile" class="right">
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/resume">Resume</Link></li>
+                </ul>
             </div>
         </nav>
     )

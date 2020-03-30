@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+.nav-wrapper {
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
 .brand-logo {
   margin-left: 20px;
 }

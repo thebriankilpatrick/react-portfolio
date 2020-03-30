@@ -5,7 +5,7 @@ import Wrapper from "./components/Wrapper";
 import HomePage from "./pages/HomePage.js";
 import About from "./pages/About.js";
 // import Footer from "./components/Footer";
-// import Project from "./components/Project";
+import Project from "./pages/Project";
 import './App.css';
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         <Wrapper>
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/about" component={About}/>
+          <Route exact path="/projects" component={Project}/>
         </Wrapper>
       </div>
     </Router>
