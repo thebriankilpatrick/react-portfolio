@@ -1,0 +1,11 @@
+.card {
+    margin-top: 30px;
+}
+
+.card-title {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.projectLink:hover {
+    color: #a5d6a7 !important;
+}
