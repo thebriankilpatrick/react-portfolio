@@ -1,16 +1,17 @@
 import React from "react";
 import "./About.css";
 import BodyClassName from 'react-body-classname';
+import { Link } from "react-router-dom";
 
 function About() {
     return (
         <div>
-            <BodyClassName className="blue lighten-3"></BodyClassName>
+            <BodyClassName className="teal lighten-3"></BodyClassName>
             <div class="container">
                 <div className="col s12 m12 l8">
                     <div className="card horizontal">
                         <div className="card-image">
-                            
+
                         </div>
                         <div className="card-stacked">
                             <div className="card-content">
@@ -54,7 +55,7 @@ function About() {
                                 </p>
                             </div>
                             <div className="card-action center-align">
-                                <a href="/projects">See My Work</a>
+                                <Link to="/projects"><a href="/projects">See My Work</a></Link>
                             </div>
                         </div>
                     </div>

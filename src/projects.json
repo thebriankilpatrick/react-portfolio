@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "title": "Lorenzo's List",
+        "description": "Lorenzo's List is a heroku deployed web application where a user can view, post, and sell items, as well as message other users.  The web pages are dynamically created and rendered with Handlebars.",
+        "tech": "On this project, I worked on the front-end code.  The technologies we used to build this application was HTML, CSS, JavaScript/jQuery, Handlebars, Bootstrap, UI Kit, MySQL/Sequelize, Express, and RESTful API's.",
+        "link": "https://dry-meadow-42689.herokuapp.com/",
+        "img": ""
+    },
+
+    {
+        "id": 2,
+        "title": "Box-Office Depot",
+        "description": "The Box-Office Depot is a web application where the user can view the top 20 rated movies, Now Playing movies, and Coming Soon movies.  The user may also search for specific movies, as well as local theaters.  The theater search functionality will also display show times, allowing the user to click on a time to be redirected to Fandango and purchase the ticket to that time.  Theater locations are displayed via Google Maps.",
+        "tech": "On this project, I handled the UX, JS logic, and API functionality.  The technologies we used were HTML, CSS, JavaScript/jQuery, Materialize, MomentJS, and RESTful API's.",
+        "link": "https://krpharr.github.io/box-office-depot/index.html",
+        "img": ""
+    },
+
+    {
+        "id": 3,
+        "title": "Devour The Burger",
+        "description": "Devour The Burger is a web application that allows the user to post burger creations, and then devour them!  All of this logic is stored in a database.",
+        "tech": "The technologies I used to build this application was HTML, CSS, JavaScript/jQuery, Bootstrap, Handlebars, Express, and MySQL.",
+        "link": "https://obscure-sierra-44459.herokuapp.com/",
+        "img": ""
+    },
+
+    {
+        "id": 4,
+        "title": "Weather Dashboard",
+        "description": "The Weather Dashboard is a web application that will display the current weather, as well as the 5-day forecast, for any city the user searches within the US.  Past searches will save as buttons for easy access to weather in any city the user has searched for previously.",
+        "tech": "The technologies I used to build this application was HTML, CSS, JavaScript/jQuery, Bootstrap, MomentJS, and OpenWeatherMap API.",
+        "link": "https://thebriankilpatrick.github.io/weather-dashboard/",
+        "img": ""
+    },
+
+    {
+        "id": 5,
+        "title": "Budget Tracker",
+        "description": "The Budget Tracker is a heroku deployed application that allows the user to track his/her expenses on or offline.  The offline logic is handled with indexedDB, and then is pushed back to the database when the connection is reestablished.  I used chartJS to display a chart to have a visual of the budget tracking.",
+        "tech": "The technologies I used to build this application was HTML, CSS, JavaScript/jQuery, Materialize, Express, MongoDB, indexedDB, service-worker and webmanifest files.",
+        "link": "https://mysterious-cliffs-78967.herokuapp.com/",
+        "img": ""
+    },
+
+    {
+        "id": 6,
+        "title": "Employee Directory",
+        "description": "The Employee Directory is a web application that allows the user to view, search, and sort employees.  This single-page application is rendered with React, which allows for 'on keystroke' filtering when searching for an employee.",
+        "tech": "The technologies I used to build this application was HTML, CSS, Bootstrap, React, MomentJS",
+        "link": "https://thebriankilpatrick.github.io/employee-directory/",
+        "img": ""
+    }
+]

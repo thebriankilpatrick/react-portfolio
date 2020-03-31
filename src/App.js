@@ -7,6 +7,7 @@ import About from "./pages/About.js";
 // import Footer from "./components/Footer";
 import Project from "./pages/Project";
 import Footer from "./components/Footer";
+import Resume from "./pages/Resume";
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" component={HomePage}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/projects" component={Project}/>
+          <Route exact path="/resume" component={Resume}/>
         </Wrapper>
         <Footer ></Footer>
       </div>
