@@ -12,7 +12,7 @@ function HomePage() {
                     <h1>Hi, I'm Brian Kilpatrick</h1>
                     <h4>Full Stack Web Developer</h4>
                     <h4>Richmond, VA</h4>
-                    <Link to="/about"><i class="fas fa-sort-down fa-4x"></i></Link>
+                    <Link to="/about"><i className="fas fa-sort-down fa-4x footerIcon"></i></Link>
                 </div>
             </div>
         </div>
