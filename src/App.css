@@ -7,6 +7,25 @@ body {
   position: relative;
 }
 
+a {
+  color: #ffffff;
+}
+
+.fab, .fas {
+  margin-right: 10px;
+}
+
+.fas:hover {
+  color: #4aaaa5;
+  transition: .5s;
+}
+
+.fab:hover {
+  cursor: pointer;
+  color: #4aaaa5;
+  transition: .5s;
+}
+
 footer {
   position: absolute;
   right: 0;

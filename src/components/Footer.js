@@ -4,10 +4,11 @@ import "../App.css";
 function Footer() {
     return (
         <div>
-            <footer class="page-footer transparent">
-                <div class="footer-copyright">
-                    © 2020 Brian Kilpatrick
-                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <footer className="page-footer transparent center-align">
+                <div className="footer">
+                    <i className="fas fa-envelope fa-2x"></i>
+                    <a href="https://github.com/thebriankilpatrick" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/thebriankilpatrick/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x"></i></a>
                 </div>
           </footer>
         </div>
