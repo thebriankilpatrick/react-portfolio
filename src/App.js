@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage.js";
 import About from "./pages/About.js";
 // import Footer from "./components/Footer";
 import Project from "./pages/Project";
+import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/about" component={About}/>
           <Route exact path="/projects" component={Project}/>
         </Wrapper>
+        <Footer ></Footer>
       </div>
     </Router>
   );
