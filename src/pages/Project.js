@@ -8,7 +8,7 @@ function Project(props) {
             <BodyClassName className="green lighten-3"></BodyClassName>
             <div className="card col l4 m6 s12">
                 <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator" src="#"/>
+                    <img className="activator projectImg" alt={props.title + " Image"} src={props.img}/>
                 </div>
                 <div className="card-content">
                     <span className="card-title activator grey-text text-darken-4">{props.title}<i className="material-icons right">more_vert</i></span>

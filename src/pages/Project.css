@@ -9,3 +9,7 @@
 .projectLink:hover {
     color: #a5d6a7 !important;
 }
+
+.projectImg {
+    height: 168px;
+}
