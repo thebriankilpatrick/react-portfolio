@@ -9,7 +9,7 @@ function Header() {
                 <ul id="nav-mobile" class="right">
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
+                    <li><Link to="/brianKilpatrickResume.PDF" target="_blank">Resume</Link></li>
                 </ul>
             </div>
         </nav>
