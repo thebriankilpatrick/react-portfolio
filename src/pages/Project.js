@@ -18,6 +18,7 @@ function Project(props) {
                     <span className="card-title grey-text text-darken-4">{props.title}<i className="material-icons right">close</i></span>
                     <p>{props.description}</p>
                     <p>{props.tech}</p>
+                    <p><a className="projectLink" href={props.github} target="_blank" rel="noopener noreferrer">Github Page</a></p>
                 </div>
             </div>
         </div>

@@ -31,6 +31,7 @@ class App extends Component {
                     description={project.description}
                     tech={project.tech}
                     link={project.link}
+                    github={project.github}
                     img={project.img}
                   />}
                   />

@@ -55,7 +55,7 @@ function About() {
                                 </p>
                             </div>
                             <div className="card-action center-align">
-                                <Link to="/projects"><a href="/projects">See My Work</a></Link>
+                                <Link to="/projects">>See My Work</Link>
                             </div>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ function Header() {
         <nav className="transparent">
             <div className="nav-wrapper">
                 <Link to="/" className="brand-logo hide-on-med-and-down">Brian Kilpatrick</Link>
-                <ul id="nav-mobile" class="right">
+                <ul id="nav-mobile" className="right">
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
                     <li><Link to="/brianKilpatrickResume.PDF" target="_blank">Resume</Link></li>
